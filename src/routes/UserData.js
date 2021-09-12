@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
 
     .then(() => {
     console.log('UserData created successfully!')
-    res.send('UserData created successfully!');
+    res.send('Data Sent successfully!');
 
   })
   .catch((err) => {
