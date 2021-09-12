@@ -1,3 +1,4 @@
+const serverless = require('serverless-http');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -30,3 +31,4 @@ app.listen(6500, () => {
 
   console.log('Started Listening!');
 });
+module.exports.handler = serverless(app);
