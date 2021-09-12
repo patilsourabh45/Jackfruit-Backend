@@ -14,8 +14,8 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  UserDataService.createUserData(req.query.fname,
-  req.query.lname, req.query.mobilenumber, req.query.basic, req.query.lta, req.query.hra, req.query.fa, req.query.investments, req.query.rent, req.query.citytype, req.query.medicalpolicy, req.query.applicablehra, req.query.totaltaxableincome)
+  UserDataService.createUserData(req.query.FirstName,
+  req.query.LastName, req.query.MobileNumber, req.query.Basic, req.query.LTA, req.query.HRA, req.query.FA, req.query.Investments, req.query.Rent, req.query.CityType, req.query.MedicalPolicy, req.query.ApplicableHRA, req.query.TotalTaxableIncome)
 
     .then(() => {
     console.log('UserData created successfully!')
