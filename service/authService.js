@@ -1,4 +1,4 @@
-const User = require('../../database/model/user');
+const User = require('../database/model/user');
 const TokenService = require('./tokenService');
 const AuthErrorCodes = require('./authError');
 const bluebird = require('bluebird');

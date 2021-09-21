@@ -1,4 +1,4 @@
-const UserData = require('../../database/model/UserData');
+const UserData = require('../database/model/UserData');
 
 function createUserData(fname, lname, mobilenumber, basic, lta, hra, fa, investments, rent, citytype, medicalpolicy, applicablehra, totaltaxableincome) {
 

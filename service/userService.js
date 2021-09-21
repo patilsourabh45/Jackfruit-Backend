@@ -1,4 +1,4 @@
-const User = require('../../database/model/user');
+const User = require('../database/model/user');
 const bluebird = require('bluebird');
 const bcrypt = bluebird.promisifyAll(require('bcrypt'));
 
